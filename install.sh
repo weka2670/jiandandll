@@ -117,6 +117,7 @@ installTlbbService(){
 claerSetupLib(){
     rm -f /opt/tlbbcentos7x.tar.gz
 	rm -f /opt/install.sh
+    rm -f /README.md
     echo "
     +---------------------------------------------
     | 天龙服务端架设成功 !!!
