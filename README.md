@@ -11,3 +11,6 @@ cd ~ && git clone https://gitee.com/QQ63732956/tlbb-server.git /opt
 cd /opt && chmod +x install.sh
 sh install.sh
 ```
+第三步
+第四步
+第五步
