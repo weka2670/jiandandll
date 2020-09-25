@@ -3,7 +3,7 @@
 #### 架设步骤
 第一步
 ```
-Xshell工具连接服务器
+Xshell工具下
 运行以下命令
 
 yum install -y wget git vim && \
@@ -11,7 +11,7 @@ cd ~ && git clone https://gitee.com/QQ63732956/tlbb-server.git /opt
 ```
 第二步
 ```
-用Xshell工具连接服务器
+Xshell工具下
 运行以下命令
 
 cd /opt && chmod +x install.sh
@@ -23,7 +23,7 @@ sh install.sh
 ```
 第四步
 ```
-Xshell工具连接服务器
+Xshell工具下
 解包tlbb.tar.gz
 命令如下
 
@@ -32,6 +32,9 @@ tar xzvf tlbb.tar.gz
 ```
 第五步
 ```
+用WinSCP工具复制到本地修改
+然后上传回原来位置替换
+
 修改服务端配置文件
 /home/tlbb/Server/Config
 
@@ -68,4 +71,19 @@ Port0      修改为游戏端口
 [Server1]项下的
 IP0        修改为服务器IP
 Port0      修改为登陆端口
+```
+第六步
+```
+Xshell工具下
+启动服务端引擎
+命令如下
+
+cd /home/tlbb
+./run.sh
+
+停止服务端引擎
+命令如下
+
+cd /home/tlbb
+./stop.sh
 ```
