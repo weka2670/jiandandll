@@ -20,6 +20,7 @@ sh install.sh
 用Xshell工具连接服务器
 解包tlbb.tar.gz
 命令如下
+
 cd /home
 tar xzvf tlbb.tar.gz
 ```
