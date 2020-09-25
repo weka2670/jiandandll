@@ -12,5 +12,8 @@ cd /opt && chmod +x install.sh
 sh install.sh
 ```
 第三步
+```
+用WinSCP工具上传天龙八部服务端到home目录下
+```
 第四步
 第五步
