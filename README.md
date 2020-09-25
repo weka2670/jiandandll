@@ -16,4 +16,11 @@ sh install.sh
 用WinSCP工具上传天龙八部服务端到home目录下
 ```
 第四步
+```
+用Xshell工具连接服务器
+解包tlbb.tar.gz
+命令如下
+cd /home
+tar xzvf tlbb.tar.gz
+```
 第五步
