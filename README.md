@@ -31,3 +31,41 @@ cd /home
 tar xzvf tlbb.tar.gz
 ```
 第五步
+```
+修改服务端配置文件
+/home/tlbb/Server/Config
+
+配置文件如下
+LoginInfo.ini
+ShareMemInfo.ini
+ServerInfo.ini
+
+修改LoginInfo.ini配置文件下
+DBPassword 项为数据库密码
+
+修改ShareMemInfo.ini配置文件下
+DBPassword 项为数据库密码
+
+修改ShareMemInfo.ini配置文件下
+双机版修改
+[Billing]项下的
+IP0        修改为win机IP
+Port0      修改为win机Billing端口
+[Server0]项下的
+IP0        修改为服务器IP
+Port0      修改为游戏端口
+[Server1]项下的
+IP0        修改为服务器IP
+Port0      修改为登陆端口
+
+单Linux版修改
+[Billing]项下的
+IP0        修改为127.0.0.1
+Port0      修改为Billing相同端口
+[Server0]项下的
+IP0        修改为服务器IP
+Port0      修改为游戏端口
+[Server1]项下的
+IP0        修改为服务器IP
+Port0      修改为登陆端口
+```
