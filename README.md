@@ -3,11 +3,15 @@
 #### 架设步骤
 第一步
 ```
+Xshell工具连接服务器
+
 yum install -y wget git vim && \
 cd ~ && git clone https://gitee.com/QQ63732956/tlbb-server.git /opt
 ```
 第二步
 ```
+用Xshell工具连接服务器
+
 cd /opt && chmod +x install.sh
 sh install.sh
 ```
@@ -17,7 +21,7 @@ sh install.sh
 ```
 第四步
 ```
-用Xshell工具连接服务器
+Xshell工具连接服务器
 解包tlbb.tar.gz
 命令如下
 
