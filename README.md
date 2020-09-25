@@ -138,4 +138,5 @@ systemctl disable firewalld.service
 
 常看防火墙开启关闭命令：
 systemctl status firewalld.service
+
 ```
