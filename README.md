@@ -87,3 +87,55 @@ cd /home/tlbb
 cd /home/tlbb
 ./stop.sh
 ```
+### 到此就可以登陆游戏了
+
+### tlbb-server命令大全
+```
+解压命令：
+cd /home
+tar xzvf tlbb.tar.gz
+
+打包命令
+cd /home
+tar zcvf yx.tgz tlbb
+
+删除命令：
+cd /home
+rm -rf tlbb
+
+启动命令：
+cd /home/tlbb/
+./run.sh
+
+停止命令:
+cd /home/tlbb/
+./stop.sh
+
+分布启动命令：
+克隆SSH1
+cd /home/tlbb/Server
+./shm start
+克隆SSH2
+cd /home/tlbb/Server
+./Login
+克隆SSH3
+cd /home/tlbb/Server
+./World
+克隆SSH4
+cd /home/tlbb/Server
+./Server
+
+校对时间命令：
+rm -rf /etc/localtime
+ln -s /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
+
+启动数据库命令：
+service mysqld restart
+
+永久关闭防火墙命令：
+systemctl stop firewalld.service
+systemctl disable firewalld.service
+
+常看防火墙开启关闭命令：
+systemctl status firewalld.service
+```
